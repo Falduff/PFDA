@@ -23,3 +23,20 @@
    <li>COVID-19 samples showed increased alveolar macrophages and decreased alveolar Type II cells, suggesting immune response and lung damage.</li>
    <li>Identified marker genes that distinguish clusters and cell types.</li>
 </ul>
+
+<h2 style="font-size:20px;">Usage</h2>
+<p style="font-size:15px;">Clone this repository. Install dependencies from requirements.txt in the Project folder and run through the single-cell.ipynb notebook.</p>
+<p style="font-size:15px;">This should be able to run without on just a CPU but a GPU is recomended for Harmony.</p>
+
+<h2 style="font-size:20px;">References</h2>
+<ul>
+   https://scanpy.readthedocs.io/en/stable/tutorials/basics/clustering.html
+   <li><b>Scanpy:</b> Wolf, F.A., Angerer, P. & Theis, F.J. (2018). Scanpy: large-scale single-cell gene expression data analysis. Genome Biology, 19, 15. <a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">DOI</a></li>
+   https://scanpy.readthedocs.io/en/stable/tutorials/basics/clustering.html
+   <li><b>scVI-tools:</b> Gayoso, A., Lopez, R., et al. (2022). A Python library for deep probabilistic analysis of single-cell omics data. Nature Biotechnology, 40, 163–166. <a href="https://doi.org/10.1038/s41587-021-01206-w" target="_blank">DOI</a></li>
+   <li><b>Harmonypy:</b> Korsunsky, I., et al. (2019). Fast, sensitive and accurate integration of single-cell data with Harmony. Nature Methods, 16, 1289–1296. <a href="https://doi.org/10.1038/s41592-019-0619-0" target="_blank">DOI</a>
+</li>
+   https://github.com/slowkow/harmonypy
+   <li><b>Single-Cell Analysis:</b> Zheng, G.X.Y., et al. (2017). Massively parallel digital transcriptional profiling of single cells. Nature Communications, 8, 14049. <a href="https://doi.org/10.1038/ncomms14049" target="_blank">DOI</a></li>
+   <li><b>Leiden Algorithm:</b> Traag, V.A., Waltman, L., & van Eck, N.J. (2019). From Louvain to Leiden: guaranteeing well-connected communities. Scientific Reports, 9, 5233. <a href="https://doi.org/10.1038/s41598-019-41695-z" target="_blank">DOI</a></li>
+</ul>
